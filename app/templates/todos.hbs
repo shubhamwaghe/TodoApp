@@ -1,0 +1,10 @@
+<div class="col-md-12">
+  <div class="row">
+    <h3>My Todos</h3>
+    <div class="row">
+      {{#each model as |todo|}}
+        {{#todo-card todo=todo}} {{/todo-card}}
+      {{/each}}
+    </div>
+  </div>
+</div>

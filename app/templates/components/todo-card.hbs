@@ -1,0 +1,13 @@
+<div class="col-md-3">
+  <div class="panel panel-info">
+    <div class="panel-heading">
+      <h3 class="panel-title"> {{todo.title}} </h3>
+    </div>
+    <div class="panel-body todo-card-body"> {{todo.body}} </div>
+      <div class="panel-footer">
+      {{#link-to 'edit' todo}} <div class="btn btn-warning">Edit</div> {{/link-to}}
+      <div class="btn btn-danger" {{action "deleteTodo" todo}} >Delete</div>
+    </div>
+  </div>
+</div>
+{{yield}}
