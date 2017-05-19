@@ -15,7 +15,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd todo-app`
+* `cd TodoApp`
 * `npm install`
 
 ## Running / Development
@@ -26,5 +26,5 @@ You will need the following things properly installed on your computer.
 
 ## Screenshots
 
-![Alt text](/screenshots/main-screen.png?raw=true "Screenshot Main Screen")
+![Alt text](/screenshots/main-screen-image.png?raw=true "Screenshot Main Screen")
 
