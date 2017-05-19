@@ -26,5 +26,5 @@ You will need the following things properly installed on your computer.
 
 ## Screenshots
 
-![Alt text](/screenshots/main-screen-image.png?raw=true "Screenshot Main Screen")
+![Alt text](/screenshots/main-screen.png?raw=true "Screenshot Main Screen")
 
