@@ -8,7 +8,8 @@ export default Ember.Controller.extend({
       this.transitionToRoute('todos');
     },
 
-    cancelUpdate(todo) {
+    cancelUpdate() {
+      var todo = this.get('model');
       todo.rollbackAttributes();
       this.transitionToRoute('todos');
     }
