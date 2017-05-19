@@ -1,16 +1,16 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
-	actions: {
+  actions: {
     updateTodo() {
-    	var todo = this.get('model');
+      var todo = this.get('model');
       todo.save();
       this.transitionToRoute('todos');
     },
 
     cancelUpdate(todo) {
-    	todo.rollbackAttributes();
-    	this.transitionToRoute('todos');
+      todo.rollbackAttributes();
+      this.transitionToRoute('todos');
     }
   }
 });
